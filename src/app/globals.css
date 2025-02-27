@@ -12,7 +12,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -21,4 +21,12 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  @apply max-w-7xl mx-auto;
+}
+
+.shadow {
+  @apply hover:shadow-lg transition-shadow duration-200;
 }
